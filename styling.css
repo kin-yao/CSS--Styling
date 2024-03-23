@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* Header Styling */
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+/* Introduction Section */
+.introduction {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.introduction h2 {
+    color: #333;
+}
+
+/* Skills Display */
+.skills {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.skills h2 {
+    color: #333;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* Apply distinct background colors to skills */
+.skills li:nth-child(odd) {
+    background-color: #f8d7da; /* Light red */
+}
+
+.skills li:nth-child(even) {
+    background-color: #d4edda; /* Light green */
+}
+
+/* Contact Information */
+.contact {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.contact h2 {
+    color: #333;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul ul {
+    margin-top: 5px;
+}
+
+.contact li a {
+    text-decoration: none;
+    color: #007bff;
+}
